@@ -22,9 +22,24 @@
 
     <link href="<?= base_url('assets/'); ?>vendor/boostrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <link href="<?= base_url('assets/'); ?>css/style.css" rel="stylesheet">
+
 </head>
 
 <body id="page-top">
 
     <!-- Page Wrapper -->
     <div id="wrapper">
+
+        <!-- loader section -->
+        <div class="container-fluid loader-wrap">
+            <div class="row h-100">
+                <div class="col-10 col-md-6 col-lg-5 col-xl-3 mx-auto text-center align-self-center">
+                    <div class="loader-cube-wrap loader-cube-animate mx-auto">
+                        <img src="<?= base_url('assets/'); ?>img/lembaga/logo.jpg" alt="Logo">
+                    </div>
+                    <p class="mt-4">MTs. Ma'arif Bakung<br><strong>Mohon Tunggu...</strong></p>
+                </div>
+            </div>
+        </div>
+        <!-- loader section ends -->
